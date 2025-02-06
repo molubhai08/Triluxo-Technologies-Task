@@ -2,6 +2,8 @@ import streamlit as st
 from streamlit_chat import message as st_message
 import requests as rq
 
+
+#run the app.py before hand
 # Initialize chat history in session state if not already present
 if "history" not in st.session_state:
     st.session_state.history = []
